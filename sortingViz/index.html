@@ -9,22 +9,8 @@
 
   <link rel="stylesheet" type="text/css" href="style.min.css">
   <div id="canvas-container"></div>
+  <div id="slider"></div>
   
-  <pre id="pseudo-code">
-function* selectionSort() {
-  let smallest
-  for (let min = 0; min < arr.length; min++) {
-    smallest = min
-    for (let j = min + 1; j < arr.length; j++)
-      if (arr[j] < arr[smallest]) smallest = j
-      
-    swap(arr, min, smallest)
-    sm = smallest
-    current = min
-    yield
- }
-}
-  </pre>
   <script src="libraries/p5.min.js"></script>
   <script src="libraries/p5.sound.min.js"></script>
 </head>
